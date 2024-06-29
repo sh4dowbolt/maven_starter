@@ -16,7 +16,6 @@
   <scm>
     <connection>scm:git:git@github.com:sh4dowbolt/maven_starter.git</connection>
     <developerConnection>scm:git:git@github.com:sh4dowbolt/maven_starter.git</developerConnection>
-    <url>https://github.com/sh4dowbolt/maven_starter</url>
     <tag>first-maven-1.0.0</tag>
   </scm>
       
