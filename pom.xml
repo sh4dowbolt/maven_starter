@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.suraev</groupId>
   <artifactId>first-maven</artifactId>
-  <version>1.0.0 </version>
+  <version>1.0.0</version>
 
 
   
@@ -159,19 +159,21 @@
 
 
      </dependency>
+     <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-release-plugin -->
+
 
 
    </dependencies>
  </dependencyManagement>
-      
-  
+
+
   <build>
     <plugins>
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>3.1.0</version>
           <configuration>
             <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
           </configuration>
@@ -294,13 +296,7 @@
           <version>3.0.0</version>
 
         </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.2.0</version>
-          <executions />
-        </plugin>
-        
+
         <plugin>
                               
           
