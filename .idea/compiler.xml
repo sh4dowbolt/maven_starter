@@ -12,14 +12,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="database" />
-        <module name="web" />
         <module name="service" />
-        <module name="WebApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="second-maven" target="19" />
+      <module name="web" target="1.7" />
       <module name="webapp" target="19" />
+      <module name="WebApp" target="1.7" />
       <module name="webapp1.0" target="1.7" />
       <module name="webapp2.0" target="19" />
     </bytecodeTargetLevel>
